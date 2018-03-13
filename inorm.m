@@ -1,0 +1,14 @@
+clc;clear;
+i1=imread('X1.jpg');i11=double(255*norm(i1));figure(1);imshow(i11,[]);
+i2=imread('X2.jpg');i12=norm(i2);figure(2);imshow(i12,[]);
+i3=imread('X3.jpg');i13=norm(i3);figure(3);imshow(i13,[]);
+i4=imread('X4.jpg');i14=norm(i4);figure(4);imshow(i14,[]);
+imwrite(i11,'x11.jpg');
+imwrite(i12,'x12.jpg');
+imwrite(i13,'x13.jpg');
+imwrite(i14,'x14.jpg');
+% i5=imread('X5.jpg');i15=255*norm(i5);figure(5);imshow(i5);
+% i6=imread('X6.jpg');i16=255*norm(i6);figure(6);imshow(i6);
+% i7=imread('X7.jpg');i17=255*norm(i7);figure(7);imshow(i7);
+% i8=imread('X8.jpg');i18=255*norm(i8);figure(8);imshow(i8);
+% i9=imread('X9.jpg');i19=255*norm(i9);figure(9);imshow(i9);
